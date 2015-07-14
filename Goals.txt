@@ -1,0 +1,23 @@
+Architecture
+============
+1. Build sample project based on DDD
+2. Implement Storage after Domain built
+
+Testing
+=======
+1. Write unit tests covering domain
+2. Discover testing techniques and tools to improve coverage
+
+UI
+==
+1. Create UI sketches
+2. Build views from sketches
+3. Master routing and navigation
+4. Implement Controllers
+5. Ensure dynamic html (bootstrap etc.)
+
+Late goals
+==========
+1. Identify difficulties and investigate js frameworks to make it easier
+2. Investigate js frameworks to convert to SPA
+3. Implement js framework for MVVM in client layer, improving UX

@@ -1,0 +1,4 @@
+C:\Users\nfilter\documents\visual studio 2013\Projects\TrainingTracker\TrainingTracker.Common\bin\Debug\TrainingTracker.Common.dll
+C:\Users\nfilter\documents\visual studio 2013\Projects\TrainingTracker\TrainingTracker.Common\bin\Debug\TrainingTracker.Common.pdb
+C:\Users\nfilter\documents\visual studio 2013\Projects\TrainingTracker\TrainingTracker.Common\obj\Debug\TrainingTracker.Common.dll
+C:\Users\nfilter\documents\visual studio 2013\Projects\TrainingTracker\TrainingTracker.Common\obj\Debug\TrainingTracker.Common.pdb

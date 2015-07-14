@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TrainingTrackerModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Training">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="TrainingPlans" Relationship="Self.FK_TrainingPlan_Training" FromRole="Training" ToRole="TrainingPlan" />
+  </EntityType>
+  <EntityType Name="TrainingPlan">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Details" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TrainingID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Training" Relationship="Self.FK_TrainingPlan_Training" FromRole="TrainingPlan" ToRole="Training" />
+    <NavigationProperty Name="TrainingSessions" Relationship="TrainingTrackerModel.FK_TrainingSession_TrainingPlan" FromRole="TrainingPlan" ToRole="TrainingSession" />
+  </EntityType>
+  <Association Name="FK_TrainingPlan_Training">
+    <End Role="Training" Type="Self.Training" Multiplicity="1" />
+    <End Role="TrainingPlan" Type="Self.TrainingPlan" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Training">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TrainingPlan">
+        <PropertyRef Name="TrainingID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TrainingTrackerEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Trainings" EntityType="Self.Training" />
+    <EntitySet Name="TrainingPlans" EntityType="Self.TrainingPlan" />
+    <AssociationSet Name="FK_TrainingPlan_Training" Association="Self.FK_TrainingPlan_Training">
+      <End Role="Training" EntitySet="Trainings" />
+      <End Role="TrainingPlan" EntitySet="TrainingPlans" />
+    </AssociationSet>
+    <EntitySet Name="TrainingSessions" EntityType="TrainingTrackerModel.TrainingSession" />
+    <AssociationSet Name="FK_TrainingSession_TrainingPlan" Association="TrainingTrackerModel.FK_TrainingSession_TrainingPlan">
+      <End Role="TrainingPlan" EntitySet="TrainingPlans" />
+      <End Role="TrainingSession" EntitySet="TrainingSessions" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="TrainingSession">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TrainingPlanId" Type="Int32" Nullable="false" />
+    <Property Name="SessionDateTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Result" Type="Decimal" Precision="18" Scale="0" />
+    <NavigationProperty Name="TrainingPlan" Relationship="TrainingTrackerModel.FK_TrainingSession_TrainingPlan" FromRole="TrainingSession" ToRole="TrainingPlan" />
+  </EntityType>
+  <Association Name="FK_TrainingSession_TrainingPlan">
+    <End Type="TrainingTrackerModel.TrainingPlan" Role="TrainingPlan" Multiplicity="1" />
+    <End Type="TrainingTrackerModel.TrainingSession" Role="TrainingSession" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TrainingPlan">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TrainingSession">
+        <PropertyRef Name="TrainingPlanId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

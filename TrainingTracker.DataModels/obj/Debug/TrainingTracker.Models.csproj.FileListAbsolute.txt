@@ -1,0 +1,10 @@
+C:\Users\nfilter\documents\visual studio 2013\Projects\TrainingTracker\TrainingTracker.Models\bin\Debug\TrainingTracker.Models.dll
+C:\Users\nfilter\documents\visual studio 2013\Projects\TrainingTracker\TrainingTracker.Models\bin\Debug\TrainingTracker.Models.pdb
+C:\Users\nfilter\documents\visual studio 2013\Projects\TrainingTracker\TrainingTracker.Models\obj\Debug\TrainingTracker.Models.csprojResolveAssemblyReference.cache
+C:\Users\nfilter\documents\visual studio 2013\Projects\TrainingTracker\TrainingTracker.Models\obj\Debug\TrainingTracker.Models.dll
+C:\Users\nfilter\documents\visual studio 2013\Projects\TrainingTracker\TrainingTracker.Models\obj\Debug\TrainingTracker.Models.pdb
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.Models\bin\Debug\TrainingTracker.Models.dll.config
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.Models\bin\Debug\EntityFramework.dll
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.Models\bin\Debug\EntityFramework.xml
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.Models\bin\Debug\EntityFramework.SqlServer.xml

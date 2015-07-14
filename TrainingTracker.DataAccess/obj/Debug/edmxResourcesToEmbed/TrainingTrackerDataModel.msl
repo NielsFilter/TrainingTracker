@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TrainingTrackerModelStoreContainer" CdmEntityContainer="TrainingTrackerEntities">
+    <EntitySetMapping Name="Trainings">
+      <EntityTypeMapping TypeName="TrainingTrackerModel.Training">
+        <MappingFragment StoreEntitySet="Training">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TrainingPlans">
+      <EntityTypeMapping TypeName="TrainingTrackerModel.TrainingPlan">
+        <MappingFragment StoreEntitySet="TrainingPlan">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Details" ColumnName="Details" />
+          <ScalarProperty Name="TrainingID" ColumnName="TrainingID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TrainingSessions">
+      <EntityTypeMapping TypeName="TrainingTrackerModel.TrainingSession">
+        <MappingFragment StoreEntitySet="TrainingSession">
+          <ScalarProperty Name="Result" ColumnName="Result" />
+          <ScalarProperty Name="SessionDateTime" ColumnName="SessionDateTime" />
+          <ScalarProperty Name="TrainingPlanId" ColumnName="TrainingPlanId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

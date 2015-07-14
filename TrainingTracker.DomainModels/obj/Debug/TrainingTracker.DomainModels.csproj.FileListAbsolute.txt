@@ -1,0 +1,4 @@
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.DomainModels\bin\Debug\TrainingTracker.DomainModels.dll
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.DomainModels\bin\Debug\TrainingTracker.DomainModels.pdb
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.DomainModels\obj\Debug\TrainingTracker.DomainModels.dll
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.DomainModels\obj\Debug\TrainingTracker.DomainModels.pdb

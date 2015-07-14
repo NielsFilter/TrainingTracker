@@ -1,0 +1,12 @@
+C:\Users\nfilter\documents\visual studio 2013\Projects\TrainingTracker\TrainingTracker.DataAccess\obj\Debug\TrainingTracker.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.DataAccess\bin\Debug\TrainingTracker.DataAccess.dll.config
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.DataAccess\bin\Debug\TrainingTracker.DataAccess.dll
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.DataAccess\bin\Debug\TrainingTracker.DataAccess.pdb
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.DataAccess\obj\Debug\TrainingTracker.DataAccess.dll
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.DataAccess\obj\Debug\TrainingTracker.DataAccess.pdb
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.DataAccess\bin\Debug\TrainingTracker.DataModels.dll
+C:\Users\nfilter\Documents\Visual Studio 2013\Projects\TrainingTracker\TrainingTracker.DataAccess\bin\Debug\TrainingTracker.DataModels.pdb
